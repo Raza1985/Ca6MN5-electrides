@@ -1,0 +1,27 @@
+ISMEAR =  1            
+SIGMA  =  0.2         
+IBRION =  2           
+EDIFF  =  1E-8        
+NSW = 400
+NELM = 100
+NCORE = 16
+ISPIN = 2
+MAGMOM = 12*0.6 2*5.0 10*0.6
+PREC   =  Accurate    
+ENCUT  =  600        
+LREAL  = Auto       
+LWAVE  = .FALSE.       
+LCHARG = .FALSE.       
+ADDGRID= .TRUE.        
+ISIF = 3
+POTIM = 0.5
+EDIFFG  =  -0.001
+LDAU = .TRUE.
+LDAUTYPE = 2
+LDAUL    = -1 2 -1
+LDAUU    = 0.0  4.0  0.0
+LDAUJ    = 0.0  0.0  0.0
+LMAXMIX  = 6
+LDAUPRINT = 2
+LASPH = .TRUE.
+ 
