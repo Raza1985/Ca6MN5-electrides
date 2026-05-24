@@ -1,0 +1,31 @@
+NCORE   = 1
+#KPAR   = 2
+
+ENCUT   = 600
+ALGO    = Normal 
+IBRION  = -1
+#NSW     = 0
+#EDIFF   = 1.0e-08
+LREAL   = .FALSE.
+ISMEAR  = 1
+SIGMA   = 0.2
+ISPIN = 2
+MAGMOM = 12*0.039 2*2.189 6*0.098 4*0.002
+LORBIT = 11
+PREC    = Accurate
+ADDGRID = .TRUE.
+
+NWRITE  = 1
+LCHARG  = .TRUE.
+LWAVE   = .FALSE.
+LELF    = .TRUE.
+
+LDAU = .TRUE.
+LDAUTYPE = 2
+LDAUL = -1 2 -1
+LDAUU = 0.0 3.29 0.0
+LDAUJ = 0.0 0.0 0.0
+LMAXMIX = 4
+LDAUPRINT = 2
+LASPH = .TRUE.
+
